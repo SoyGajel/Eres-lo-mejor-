@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Para la mujer más importante y especial</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at 20% 10%, #0b0033 0%, #000014 40%, #000000 100%);
+      color: #fff;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .stage {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      position: relative;
+      z-index: 10;
+      max-width: 950px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 36px 28px;
+      backdrop-filter: blur(6px) saturate(120%);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      font-size: clamp(22px, 3.6vw, 38px);
+      color: #ffd1f0;
+      margin-bottom: 14px;
+      text-shadow: 0 6px 30px rgba(255,51,153,0.12);
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: clamp(15px, 2vw, 18px);
+      color: #f6eaff;
+      margin-top: 12px;
+      line-height: 1.5;
+      white-space: pre-line;
+    }
+
+    .heart {
+      display: inline-block;
+      font-size: 36px;
+      margin-top: 10px;
+      animation: pulse 1400ms infinite;
+      transform-origin: center;
+      filter: drop-shadow(0 6px 14px rgba(255,0,150,0.18));
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    /* Rosas moradas abajo */
+    .roses {
+      position: absolute;
+      bottom: 22px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 12;
+      display: flex;
+      gap: 18px;
+      align-items: flex-end;
+      pointer-events: none;
+    }
+    .rose {
+      font-size: 40px;
+      filter: drop-shadow(0 6px 10px rgba(120,0,120,0.35));
+      animation: float 3s ease-in-out infinite alternate;
+    }
+    .rose:nth-child(2) { animation-delay: 0.25s; }
+    .rose:nth-child(3) { animation-delay: 0.5s; }
+
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    /* Ramo de flores moradas tipo floreciendo */
+    .bouquet {
+      position: absolute;
+      bottom: 90px;
+      left: 50%;
+      transform: translateX(-50%) scale(0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 120px;
+      z-index: 11;
+      animation: bloom 4s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    @keyframes bloom {
+      0% { opacity: 0; transform: translateX(-50%) scale(0.3) rotate(-10deg); }
+      100% { opacity: 1; transform: translateX(-50%) scale(1) rotate(0deg); }
+    }
+
+    .flower {
+      font-size: 30px;
+      margin: 4px;
+      filter: drop-shadow(0 2px 6px rgba(150,0,200,0.6));
+    }
+
+    /* Estrellas fijas */
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.9;
+      transform: translateZ(0);
+      will-change: opacity;
+    }
+
+    /* Estrellas fugaces */
+    .shooting-star {
+      position: absolute;
+      width: 140px;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0));
+      opacity: 0;
+      transform: rotate(25deg);
+      filter: blur(0.6px) drop-shadow(0 6px 12px rgba(255,255,255,0.05));
+      z-index: 8;
+      border-radius: 2px;
+    }
+
+    .spark {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #fff 0%, rgba(255,255,255,0.2) 60%, transparent 100%);
+      z-index: 9;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="card" role="main">
+      <h1>Para la mujer más importante y especial que me dio brillo otra vez en los ojos 💖</h1>
+      <p>
+Eres una de las personas que menos esperé encariñarme y tener un amor tan profundo que me haría tener un brillo tan increíble por solo ver a una persona, y esa persona eres tú :3.
+
+El amor que menos esperé tener y que me está haciendo sentir todo tipo de sentimiento por un solo mensaje, y por un momento de estar cerca de ti me siento más que suficiente. 
+Y pueda que no sea perfecto, o que tengas una percepción de mí que tal vez soy un mentiroso o bandido...
+
+Pero te aseguro que no me gusta, ni me gustaría tener ese estilo de vida de tener a varias. 
+Nunca me ha gustado, solo me interesa una sola mujer, y esa eres tú. 
+La persona con la cual quiero hacer las cosas bien y tan increíble que no pienso perderte, ni dejar que algo así que me hizo sentir de nuevo cosas tan intensas se vaya 💜
+      </p>
+      <div class="heart">💜</div>
+    </div>
+
+    <!-- Rosas moradas -->
+    <div class="roses">
+      <div class="rose">🌹</div>
+      <div class="rose">🌹</div>
+      <div class="rose">🌹</div>
+    </div>
+
+    <!-- Ramo de flores moradas -->
+    <div class="bouquet">
+      <div class="flower">💐</div>
+      <div class="flower">🌸</div>
+      <div class="flower">🌷</div>
+      <div class="flower">🌹</div>
+      <div class="flower">🌺</div>
+      <div class="flower">🌻</div>
+    </div>
+  </div>
+
+  <script>
+    const stage = document.getElementById('stage');
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+
+    // Crear estrellas
+    for (let i = 0; i < 160; i++) {
+      const s = document.createElement('div');
+      s.className = 'star';
+      const size = Math.random() * 2 + 0.5;
+      s.style.width = size + 'px';
+      s.style.height = size + 'px';
+      s.style.top = Math.random() * 100 + 'vh';
+      s.style.left = Math.random() * 100 + 'vw';
+      s.style.opacity = (Math.random() * 0.8 + 0.2).toFixed(2);
+      stage.appendChild(s);
+    }
+
+    // Estrellas fugaces
+    function launchShootingStar() {
+      const shoot = document.createElement('div');
+      shoot.className = 'shooting-star';
+      const startX = Math.random() * (vw * 0.6) - 100;
+      const startY = Math.random() * (vh * 0.35);
+      shoot.style.left = startX + 'px';
+      shoot.style.top = startY + 'px';
+      stage.appendChild(shoot);
+
+      const spark = document.createElement('div');
+      spark.className = 'spark';
+      stage.appendChild(spark);
+
+      const duration = 1200 + Math.random() * 1400;
+      const angle = 25 * (Math.PI / 180);
+      const distance = Math.max(vw, vh) * (0.8 + Math.random() * 0.6);
+      const startTime = performance.now();
+
+      function step(now) {
+        const t = (now - startTime) / duration;
+        if (t >= 1) {
+          shoot.remove();
+          spark.remove();
+          return;
+        }
+        const eased = t < 0.5 ? (2*t*t) : (-1 + (4 - 2*t)*t);
+        const x = startX + Math.cos(angle) * distance * eased;
+        const y = startY + Math.sin(angle) * distance * eased;
+        shoot.style.left = x + 'px';
+        shoot.style.top = y + 'px';
+        shoot.style.opacity = (1 - eased*1.05).toFixed(2);
+        const sparkX = x + Math.cos(angle) * 40;
+        const sparkY = y + Math.sin(angle) * 40;
+        spark.style.left = (sparkX - 3) + 'px';
+        spark.style.top = (sparkY - 3) + 'px';
+        spark.style.opacity = (1 - eased).toFixed(2);
+        requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    function startMeteorShower() {
+      setInterval(() => {
+        const launches = Math.random() < 0.6 ? 1 : 2;
+        for (let i = 0; i < launches; i++) {
+          setTimeout(launchShootingStar, Math.random() * 1800);
+        }
+      }, 2200 + Math.random() * 2600);
+    }
+    startMeteorShower();
+  </script>
+</body>
+</html>
